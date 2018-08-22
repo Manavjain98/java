@@ -7,7 +7,7 @@ class Guvi6{
         int b=sc.nextInt();
         String l="";
         BigInteger b1;
-        for(int i=a;i<=b;i++){
+        for(int i=a;i<b;i++){
             l=String.valueOf(i);
             b1=new BigInteger(l);
             if(b1.isProbablePrime(5)){
