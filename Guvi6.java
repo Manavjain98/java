@@ -1,18 +1,18 @@
 import java.util.*;
-class Guvi4{
+import java.math.*;
+class Guvi6{
     public static void main(String asd[]){
         Scanner sc=new Scanner(System.in);
         int a=sc.nextInt();
         int b=sc.nextInt();
-        if(a<=1000&&b<=1000){
+        String l="";
+        BigInteger b1;
         for(int i=a;i<=b;i++){
-            if(i%2==0){
-                
+            l=String.valueOf(i);
+            b1=new BigInteger(l);
+            if(b1.isProbablePrime(5)){
+                System.out.print(l+" ");
             }
-            else{
-                System.out.print(i+" ");
-            }
-        }
         }
     }
 }
