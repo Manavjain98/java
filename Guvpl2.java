@@ -5,7 +5,7 @@ class Guvpl2{
         Scanner sc=new Scanner(System.in);
         int n=sc.nextInt();
         int sum=1;
-        for(int i=1;i<=5;i++){
+        for(int i=1;i<=n;i++){
             sum=sum*i;
         }
                     System.out.print(sum+" ") ;
